@@ -1,0 +1,43 @@
+#ifndef DIFF_RULES_HPP
+#define DIFF_RULES_HPP
+
+
+/*************************************************************************************************************
+ * BASIC DIFFERENTIATION RULES
+ * I. POWER RULE: (x^n)' = n*x^(n-1) (n is any real number)
+ * II. CONSTANT MULTIPLE RULE: [c*f(x)]' = c*f'(x) (c is a constant and f is differentiable)
+ * III. THE SUM/DIFFERENCE RULES: [f(x)+/-g(x)]' = f'(x) +/- g'(x) (f and g are both differentiable)
+ * IV. THE NATURAL EXPONENTIAL FUNCTION RULE: [e^(a*x)]' = a*e^(a*x) (a is a constant)
+ * V. THE PRODUCT RULE: [f(x)*g(x)]' = f'(x)*g(x) + f(x)*g'(x) (f and g are both differentiable)
+ * VI. THE QUOTIENT RULE: [f(x)/g(x)]' = [g(x)*f'(x) - f(x)*g'(x)]/[g(x)]^2 (f and g are both differentiable)
+ ************************************************************************************************************/
+
+/*************************************************************************************************************
+ * DERIVATIVES OF TRIGONOMETRIC FUNCTIONS
+ * I. [sin(x)]' = cos(x)
+ * II. [cos(x)]' = -sin(x)
+ * III. [tan(x)]' = [sec(x)]^2 = 1/[cos(x)]^2
+ * IV. [csc(x)]' = -csc(x)*cot(x) = [-1/sin(x)]*[cos(x)/sin(x)] = -cos(x)/[sin(x)]^2
+ * V. [sec(x)]' = sec(x)*tan(x) = [1/cos(x)]*[sin(x)/cos(x)] = sin(x)/[cos(x)]^2
+ * VI. [cot(x)]' = -[csc(x)]^2 = -1/[sin(x)]^2
+ ************************************************************************************************************/
+
+/* THE CHAIN RULE: [f(g(x))]' = f'(g(x))*g'(x) */
+
+/*************************************************************************************************************
+ * DERIVATIVES OF INVERSE TRIGONOMETRIC FUNCTIONS
+ * I. [arcsin(x)]' = 1/sqrt(1-x^2)
+ * II. [arccos(x)]' = -1/sqrt(1-x^2)
+ * III. [arctan(x)]' = 1/(1+x^2)
+ * IV. [arccsc(x)]' = -1/[x*sqrt(x^2-1)]
+ * V. [arcsec(x)]' = 1/[x*sqrt(x^2-1)]
+ * VI. [cot(x)]' = -1/(1+x^2)
+ ************************************************************************************************************/
+
+/*************************************************************************************************************
+ * DERIVATIVES OF LOGARITHMIC FUNCTIONS
+ * I. [logb(x)]' = 1/(x*ln(b))
+ * II. [ln(x)]' = 1/x (x is equal to or greater than 1)
+ ************************************************************************************************************/
+
+#endif
