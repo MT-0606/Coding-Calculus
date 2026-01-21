@@ -1,17 +1,6 @@
 #ifndef DIFF_RULES_HPP
 #define DIFF_RULES_HPP
 
-
-/*************************************************************************************************************
- * BASIC DIFFERENTIATION RULES
- * I. POWER RULE: (x^n)' = n*x^(n-1) (n is any real number)
- * II. CONSTANT MULTIPLE RULE: [c*f(x)]' = c*f'(x) (c is a constant and f is differentiable)
- * III. THE SUM/DIFFERENCE RULES: [f(x)+/-g(x)]' = f'(x) +/- g'(x) (f and g are both differentiable)
- * IV. THE NATURAL EXPONENTIAL FUNCTION RULE: [e^(a*x)]' = a*e^(a*x) (a is a constant)
- * V. THE PRODUCT RULE: [f(x)*g(x)]' = f'(x)*g(x) + f(x)*g'(x) (f and g are both differentiable)
- * VI. THE QUOTIENT RULE: [f(x)/g(x)]' = [g(x)*f'(x) - f(x)*g'(x)]/[g(x)]^2 (f and g are both differentiable)
- ************************************************************************************************************/
-
 /*************************************************************************************************************
  * DERIVATIVES OF TRIGONOMETRIC FUNCTIONS
  * I. [sin(x)]' = cos(x)
